@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/js/object.js" />
+        <item url="file://$PROJECT_DIR$/js/function.js" />
+        <item url="file://$PROJECT_DIR$/js/var.js" />
+        <item url="file://$PROJECT_DIR$/js/array.js" />
+        <item url="file://$PROJECT_DIR$/js/enum.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/js/object.js" />
+      <root url="file://$PROJECT_DIR$/js/function.js" />
+      <root url="file://$PROJECT_DIR$/js/var.js" />
+      <root url="file://$PROJECT_DIR$/js/array.js" />
+      <root url="file://$PROJECT_DIR$/js/enum.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>
