@@ -13,4 +13,3 @@ console.log(arr5);
 //元组
 var arr6 = ['1', true];
 console.log(arr6);
-//# sourceMappingURL=array.js.map

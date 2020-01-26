@@ -21,4 +21,3 @@ fn();
 //never只能用在死循环或者抛错不能赋给任何
 // let a5:never
 // a5 = 1
-//# sourceMappingURL=var.js.map

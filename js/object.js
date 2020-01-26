@@ -32,4 +32,3 @@ var obj4 = {
     }
 };
 obj4.obj3.fn();
-//# sourceMappingURL=object.js.map

@@ -13,4 +13,8 @@ function fn33(val1, val2) {
 var fn3;
 fn3 = fn33;
 console.log(fn3('lwh', 520));
-//# sourceMappingURL=function.js.map
+//fucntion类型定义的语法可以为   fn(key:string):void   fn:(key:string)=>void
+var fnObj = {
+    fn: function () {
+    }
+};

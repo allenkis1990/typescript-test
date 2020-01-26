@@ -6,4 +6,3 @@ var colors;
 })(colors || (colors = {}));
 var red = colors.red;
 console.log(red);
-//# sourceMappingURL=enum.js.map
