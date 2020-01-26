@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/module/system.min.js"></script>
+</head>
+<body>
+<script>
+    System.config({
+        baseUrl:'/',
+        packages:{
+            '/':{
+                defaultExtension:'js'
+            }
+        }
+    })
+    System.import('/js/module/index.js')
+</script>
+</body>
+</html>
