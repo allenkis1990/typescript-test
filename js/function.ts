@@ -12,12 +12,11 @@ function fn2(): number {
 console.log(fn2());
 
 
-function fn33(val1: string, val2: number) {
-    return val1 + val2
-}
 
-let fn3: (val1: string, val2: number) => string
-fn3 = fn33
+
+let fn3: (val1: string, val2: number) => string = function(val1,val2){
+    return val1+val2
+}
 console.log(fn3('lwh', 520));
 
 
