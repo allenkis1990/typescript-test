@@ -1,14 +1,14 @@
 "use strict";
-var obj1 = { name: 'allen', age: 18 };
+let obj1 = { name: 'allen', age: 18 };
 console.log(obj1);
-var obj2 = {
+let obj2 = {
     name: 'allen',
     fn: function () {
         console.log(this.name);
     }
 };
 obj2.fn();
-var obj3 = {
+let obj3 = {
     obj: {
         name: 'allen'
     },
@@ -16,17 +16,17 @@ var obj3 = {
         1,
         { job: 'web' }
     ],
-    fn: function () {
+    fn() {
         console.log(this.obj, this.arr);
     }
 };
 obj3.fn();
-var obj4 = {
+let obj4 = {
     name: 'allen',
     obj3: {
         obj: { name: 'tom' },
         arr: [1, 2, 3],
-        fn: function () {
+        fn() {
             console.log(this.obj);
         }
     }
