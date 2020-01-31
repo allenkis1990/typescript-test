@@ -1,16 +1,16 @@
 "use strict";
-let a1;
+var a1;
 a1 = 1;
 a1 = '2';
-let a2 = {
+var a2 = {
     name: 'allen',
     age: 18
 };
-let a3;
+var a3;
 a3 = 12;
 a3 = 'allen';
 a3 = {};
-let a4;
+var a4;
 a4 = null;
 a4 = undefined;
 console.log(a4);

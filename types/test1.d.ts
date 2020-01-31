@@ -30,6 +30,7 @@ interface Dinterface{
     job?:string,
     say(b:boolean):boolean
 }
+// type myType = {obj:{name:string},arr:Array<object|number>,fn:()=>void}
 
 //声明合并
 //真正结构 function Dshengming(key){return {key:key}}
@@ -37,3 +38,4 @@ declare function Dshengming(key:string):any
 declare namespace Dshengming{
     let key:string
 }
+

@@ -4,5 +4,5 @@ var colors;
     colors["red"] = "red";
     colors["blue"] = "blue";
 })(colors || (colors = {}));
-let red = colors.red;
+var red = colors.red;
 console.log(red);
